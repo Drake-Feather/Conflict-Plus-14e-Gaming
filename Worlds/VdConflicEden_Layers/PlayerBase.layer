@@ -44,7 +44,7 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bShowNotifications 1
    }
   }
-  coords 7352.897 184.302 4086.433
+  coords 7352.896 184.301 4086.433
   angleX -11.48
   angleY 0.153
   angleZ -0.908
@@ -75,10 +75,10 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
     m_bShowNotifications 1
    }
   }
-  coords 4407.485 88.443 8305.333
-  angleX -11.48
-  angleY 0.153
-  angleZ -0.908
+  coords 4407.485 88.442 8305.333
+  angleX -4.514
+  angleY -0.505
+  angleZ -5.3
   {
    GenericEntity {
     ID "5CCED514A5908822"
@@ -107,9 +107,9 @@ $grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMil
    }
   }
   coords 9181.495 28.731 5013.187
-  angleX -11.48
-  angleY 0.153
-  angleZ -0.908
+  angleX 3.319
+  angleY 2.049
+  angleZ 7.234
   {
    GenericEntity {
     ID "5CCED514A5908822"

@@ -62,17 +62,76 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
      m_aMultiLists {
       SCR_EntityCatalogMultiListEntry "{5C68AD5F14BDB1A7}" {
        m_aEntities {
-        SCR_EntityCatalogEntry "{5EF92EFC2948BA72}" {
-         m_sEntityPrefab "{96A2309CE280198F}Prefabs/Weapons/Rifles/Vz52/Rifle_Vz52.et"
+        SCR_EntityCatalogEntry "{5EF92EE0E40DDC65}" {
+         m_sEntityPrefab "{F5E3EDA47FE6F252}Prefabs/Weapons/Rifles/SVD/Rifle_SVD pso.et"
          m_aEntityDataList {
-          SCR_ArsenalItem "{5EF92EFDF59B3FC5}" {
+          SCR_ArsenalItem "{5EF92EE08BC02902}" {
+           m_eItemType SNIPER_RIFLE
            m_eItemMode WEAPON
-           m_aArsenalDisplayData {
-            SCR_ArsenalItemDisplayData "{5EF92EFD8CB98BAE}" {
-            }
-           }
           }
          }
+        }
+        SCR_EntityCatalogEntry "{5EF92EE0B1A4D46B}" {
+         m_sEntityPrefab "{76C400582D3C4AFA}Prefabs/Weapons/MachineGuns/PKP/MG_PKP_Pecheneg_Base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92EE056A84093}" {
+           m_eItemType MACHINE_GUN
+           m_eItemMode WEAPON
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EF92EEA8034430E}" {
+         m_sEntityPrefab "{A5088C056E06D479}Prefabs/Weapons/Handguns/SP81/Handgun_SP81.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92EEA7A75C316}" {
+           m_eItemType PISTOL
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EF92EEA67F923BD}" {
+         m_sEntityPrefab "{7E091BABB4D58984}Prefabs/Weapons/Handguns/APS/Handgun_APS_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92EEA0E825376}" {
+           m_eItemType PISTOL
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EF92EEA071FA8FA}" {
+         m_sEntityPrefab "{C2E516E1F46CFD92}Prefabs/Weapons/Rifles/AN94/Rifle_AN94_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92EEBFC9240CA}" {
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EF92ED4C953B5F3}" {
+         m_sEntityPrefab "{3FA38ECE65392FC3}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92ED4E79AF1BB}" {
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EF92ED4BC897108}" {
+         m_sEntityPrefab "{53F72BF37E1A67D0}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_b18.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92ED45E21553C}" {
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aEntityCatalogs {
+    SCR_EntityCatalogMultiList "{5C9E82F29B327997}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{5EF92EE4032B4851}" {
+       m_sEntityPrefab "{45DDFA40E1CB6B82}Prefabs/Vehicles/Wheeled/Stryker/Stryker_Dragoon.et"
+       m_aEntityDataList {
+        SCR_EntityCatalogSpawnerData "{5EF92EE5C95956D1}" {
+         m_iSupplyCost 1400
         }
        }
       }
@@ -91,6 +150,9 @@ SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  coords 8193.229 0.741 5629.811
  m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
+   m_sLoadoutResource "{8B567897680EB9FA}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et"
+  }
   SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
    m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
   }

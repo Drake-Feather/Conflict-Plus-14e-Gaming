@@ -1,5 +1,5 @@
 GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
- coords 4840.364 116.264 8062.908
+ coords 4840.365 116.264 8062.912
  angleY 37.727
 }
 StaticModelEntity : "{A8D91E11AE815152}PrefabsEditable/Auto/Structures/Infrastructure/Towers/E_TransmitterTower_01_small.et" {
