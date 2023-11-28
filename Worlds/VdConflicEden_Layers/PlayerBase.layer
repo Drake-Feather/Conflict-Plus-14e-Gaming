@@ -1,0 +1,129 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+    m_bIsSupplyHub 1
+   }
+  }
+  coords 3907.672 15.314 8450.213
+  angleX -0.895
+  angleY -0.014
+  angleZ 0.895
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+   }
+  }
+  coords 9154.915 0.985 5452.912
+ }
+ {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bCanBeHQ 1
+   }
+  }
+  coords 7466.952 164.562 4299.618
+  {
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction ""
+   }
+  }
+ }
+ BaseCapture {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fRespawnCooldownPeriod 0
+    m_bShowNotifications 1
+   }
+  }
+  coords 7352.897 184.302 4086.433
+  angleX -11.48
+  angleY 0.153
+  angleZ -0.908
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
+  }
+ }
+ BaseCapture2 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fRespawnCooldownPeriod 0
+    m_bShowNotifications 1
+   }
+  }
+  coords 4407.485 88.443 8305.333
+  angleX -11.48
+  angleY 0.153
+  angleZ -0.908
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
+  }
+ }
+ BaseCapture3 {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_bShowNotifications 1
+    m_bIsControlPoint 1
+   }
+   SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+    m_fRespawnCooldownPeriod 0
+    m_bShowNotifications 1
+   }
+  }
+  coords 9181.495 28.731 5013.187
+  angleX -11.48
+  angleY 0.153
+  angleZ -0.908
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    components {
+     SCR_AmbientPatrolSpawnPointComponent "{5CCEC6036BBF3EDD}" {
+      m_eGroupType FIRETEAM
+      m_bPickRandomGroupType 1
+     }
+    }
+   }
+   SCR_CampaignSpawnPointGroup {
+    ID "5C6696731466AF36"
+    m_sFaction "FIA"
+   }
+  }
+ }
+}
