@@ -1,0 +1,20 @@
+GameProject {
+ ID "VdConflic"
+ GUID "5EF8CDE131316BED"
+ TITLE "VD Conflic Maps"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
