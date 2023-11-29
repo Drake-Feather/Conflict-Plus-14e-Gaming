@@ -58,6 +58,15 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       }
      }
     }
+    SCR_EntityCatalog "{5C68A0E9A51460AB}" {
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{5C54F92F74CEE665}" {
+      }
+      SCR_EntityCatalogEntry "{5EF92ED38EE89DBD}" {
+       m_sEntityPrefab "{130214331292D6B5}Prefabs/Weapons/Tripods/Tripod_SPG9.et"
+      }
+     }
+    }
     SCR_EntityCatalogMultiList "{5C68A0E9AFE1E631}" {
      m_aMultiLists {
       SCR_EntityCatalogMultiListEntry "{5C68AD5F14BDB1A7}" {
@@ -114,6 +123,36 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_sEntityPrefab "{53F72BF37E1A67D0}Prefabs/Weapons/Rifles/AKS74UN/Rifle_AKS74UN_b18.et"
          m_aEntityDataList {
           SCR_ArsenalItem "{5EF92ED45E21553C}" {
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EF92ED799E35152}" {
+         m_sEntityPrefab "{B02FA54EB2427627}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92ED7A4B90BD2}" {
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EF92ED093CFE9B2}" {
+         m_sEntityPrefab "{211E104BCAB8C7DA}Prefabs/Weapons/Rifles/Vz52/Rifle_Vz52_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92ED0B95BE0DD}" {
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EF92EDC43D379F2}" {
+         m_sEntityPrefab "{FB4C5D429348F1A2}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92EDC103CFE55}" {
+           m_eItemType MACHINE_GUN
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EF92EDC232AD66B}" {
+         m_sEntityPrefab "{E8A55396050E1762}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_pgo7.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EF92EDDB140A0ED}" {
+           m_eItemType ROCKET_LAUNCHER
           }
          }
         }
