@@ -214,6 +214,12 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       }
       SCR_EntityCatalogMultiListEntry "{5C68AD5F137C9AFF}" {
        m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5D5740B50F47F4BF}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D5740B5F3B7971F}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogEntry "{5EFA0A076C7E53F6}" {
          m_sEntityPrefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
          m_aEntityDataList {
