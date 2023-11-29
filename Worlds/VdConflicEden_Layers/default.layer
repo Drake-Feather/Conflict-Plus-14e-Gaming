@@ -1,20 +1,33 @@
+GenericEntity : "{522DCD528AE27052}Prefabs/Systems/MilitaryBase/ConflictRelayRadio.et" {
+ coords 5185.545 89.684 6284.465
+ angleY 90
+ scale 0.65
+}
 StaticModelEntity : "{7E2380494811A5FB}Prefabs/Structures/Infrastructure/Towers/TransmitterTower_01/TransmitterTower_01_medium.et" {
- coords 5184.753 85.445 6284.455
+ coords 5182.872 88.557 6284.455
 }
 $grp GenericEntity : "{9134C20BE9368D76}Prefabs/Structures/BuildingParts/Entry/ConcreteStairs_02_SideLong.et" {
  {
-  coords 5169.345 77.57 6271.608
+  coords 5169.287 77.57 6271.608
   angleY -180
   scale 0.67
  }
  {
-  coords 5173.552 77.57 6271.608
+  coords 5173.494 77.57 6271.608
   angleY -180
+  scale 0.67
+ }
+ {
+  coords 5183.239 77.57 6303.631
+  scale 0.67
+ }
+ {
+  coords 5191.458 77.57 6303.631
   scale 0.67
  }
 }
 SCR_DestructibleBuildingEntity : "{9CEC8BB63429FF28}Prefabs/Structures/Airport/ControlTower_01.et" {
- coords 5187.868 6.184 6280.045
+ coords 5186.258 6.209 6280.045
 }
 $grp GenericEntity : "{A4A57B0565E0D567}Prefabs/Structures/BuildingParts/Bridges/BridgeRailingConcrete_01_pole_small.et" {
  {
@@ -35,6 +48,26 @@ $grp GenericEntity : "{A4A57B0565E0D567}Prefabs/Structures/BuildingParts/Bridges
  }
  {
   coords 5173.894 74.869 6271.372
+  scale 2.725
+ }
+ {
+  coords 5183.165 74.869 6303.833
+  scale 2.725
+ }
+ {
+  coords 5191.557 74.869 6303.833
+  scale 2.725
+ }
+ {
+  coords 5199.868 74.869 6303.833
+  scale 2.725
+ }
+ {
+  coords 5199.83 74.869 6265.112
+  scale 2.725
+ }
+ {
+  coords 5173.917 74.869 6265.101
   scale 2.725
  }
 }
@@ -150,12 +183,28 @@ $grp GenericEntity : "{C1CE18FCDCE83CDE}Prefabs/Structures/BuildingParts/Entry/D
   coords 5186.374 77.408 6303.75
  }
  {
-  coords 5172.444 77.408 6271.465
+  coords 5172.386 77.408 6271.465
   angleY -180
  }
  {
-  coords 5170.441 77.408 6271.468
+  coords 5170.383 77.408 6271.468
   angleY -180
+ }
+}
+GenericEntity : "{E840D82CE1F92BBD}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_base.et" {
+ coords 5193.475 77.371 6285.326
+}
+$grp GenericEntity : "{F29A05EBA7063E7C}Prefabs/Props/Military/Sandbags/Sandbag_01_wall_solid_plastic.et" {
+ {
+  coords 5188.571 77.377 6292.042
+  angleY -90
+ }
+ {
+  coords 5183.336 77.377 6294.304
+ }
+ {
+  coords 5181.587 77.316 6292.28
+  angleY -90
  }
 }
 $grp GenericEntity : "{F4626F623599AA68}Prefabs/Structures/BuildingParts/Entry/Doorstep_03_5m.et" {
@@ -325,4 +374,172 @@ $grp SCR_DestructibleEntity : "{F755F729EC8D5203}Prefabs/Structures/Walls/Concre
   coords 5168.889 5.014 6272.493
   angleY 90
  }
+ {
+  coords 5198.619 2.994 6303.813
+  angleY 0
+ }
+ {
+  coords 5196.638 2.963 6303.813
+  angleY 0
+ }
+ {
+  coords 5194.786 2.934 6303.813
+  angleY 0
+ }
+ {
+  coords 5192.806 2.903 6303.813
+  angleY 0
+ }
+ {
+  coords 5199.806 3.088 6302.623
+  angleY 90
+ }
+ {
+  coords 5199.806 3.19 6300.636
+  angleY 90
+ }
+ {
+  coords 5199.806 3.302 6298.662
+  angleY 90
+ }
+ {
+  coords 5199.806 3.404 6296.7
+  angleY 90
+ }
+ {
+  coords 5199.806 3.498 6294.713
+  angleY 90
+ }
+ {
+  coords 5199.806 3.611 6292.739
+  angleY 90
+ }
+ {
+  coords 5199.806 3.711 6290.82
+  angleY 90
+ }
+ {
+  coords 5199.806 3.805 6288.833
+  angleY 90
+ }
+ {
+  coords 5199.806 3.898 6286.854
+  angleY 90
+ }
+ {
+  coords 5199.806 3.973 6284.93
+  angleY 90
+ }
+ {
+  coords 5199.806 4.052 6282.944
+  angleY 90
+ }
+ {
+  coords 5199.806 4.127 6280.969
+  angleY 90
+ }
+ {
+  coords 5199.806 4.207 6279.014
+  angleY 90
+ }
+ {
+  coords 5199.806 4.453 6273.169
+  angleY 90
+ }
+ {
+  coords 5199.806 4.531 6271.183
+  angleY 90
+ }
+ {
+  coords 5199.806 4.609 6269.208
+  angleY 90
+ }
+ {
+  coords 5199.806 4.702 6267.252
+  angleY 90
+ }
+ {
+  coords 5199.806 4.361 6275.094
+  angleY 90
+ }
+ {
+  coords 5199.806 4.282 6277.072
+  angleY 90
+ }
+ {
+  coords 5199.806 4.743 6266.375
+  angleY 90
+ }
+ {
+  coords 5174.795 5.424 6265.081
+  angleY 0
+ }
+ {
+  coords 5176.579 5.37 6265.081
+  angleY 0
+ }
+ {
+  coords 5178.56 5.351 6265.081
+  angleY 0
+ }
+ {
+  coords 5180.411 5.306 6265.081
+  angleY 0
+ }
+ {
+  coords 5182.392 5.275 6265.081
+  angleY 0
+ }
+ {
+  coords 5173.872 5.363 6266.3
+  angleY 90
+ }
+ {
+  coords 5173.872 5.242 6268.255
+  angleY 90
+ }
+ {
+  coords 5173.872 5.116 6270.23
+  angleY 90
+ }
+ {
+  coords 5186.137 5.201 6265.081
+  angleY 0
+ }
+ {
+  coords 5184.353 5.238 6265.081
+  angleY 0
+ }
+ {
+  coords 5188.118 5.152 6265.081
+  angleY 0
+ }
+ {
+  coords 5189.969 5.111 6265.081
+  angleY 0
+ }
+ {
+  coords 5191.95 5.033 6265.081
+  angleY 0
+ }
+ {
+  coords 5198.61 4.841 6265.081
+  angleY 0
+ }
+ {
+  coords 5196.629 4.886 6265.081
+  angleY 0
+ }
+ {
+  coords 5194.778 4.944 6265.081
+  angleY 0
+ }
+ {
+  coords 5192.797 5.005 6265.081
+  angleY 0
+ }
+}
+GenericEntity : "{F9910219711EC4FE}Prefabs/Compositions/Misc/SubCompositions/Fortifications/Sandbag_Camo_long_high_US.et" {
+ coords 5190.844 77.377 6285.296
+ angleY 0
 }
