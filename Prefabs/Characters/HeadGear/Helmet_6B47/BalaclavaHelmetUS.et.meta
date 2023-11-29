@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{12633942F9ECD6FB}Prefabs/Characters/HeadGear/Helmet_6B47/BalaclavaHelmetUS.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

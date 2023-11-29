@@ -1,0 +1,26 @@
+GameEntity : "{34F02C0FF60D4053}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2-1.et" {
+ ID "50D485E1435D6C72"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{F1FB2F0ACCCDABD0}Assets/Characters/HeadGear/Helmet_ECH/rhs_ech_lcr_item.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    LoadoutSlotInfo Goggles {
+     Prefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+    }
+    LoadoutSlotInfo Masks {
+     Prefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_black.et"
+    }
+    LoadoutSlotInfo NVG {
+    }
+    LoadoutSlotInfo Headset {
+     Prefab "{EB916F0BF524EF25}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_black.et"
+    }
+   }
+   WornModel "{EC9D98FBC79E617E}Assets/Characters/HeadGear/Helmet_ECH/rhs_ech_lcr.xob"
+   ItemModel "{F1FB2F0ACCCDABD0}Assets/Characters/HeadGear/Helmet_ECH/rhs_ech_lcr_item.xob"
+  }
+ }
+ coords -0.024 0 -0.063
+}

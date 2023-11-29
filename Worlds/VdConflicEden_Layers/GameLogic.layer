@@ -312,8 +312,17 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
         SCR_EntityCatalogEntry "{5EFABD3FA146402C}" {
          m_sEntityPrefab "{B0534A120633D08D}Prefabs/Items/Equipment/Nightvision/1PN138/NVG_1PN138.et"
+         m_bEnabled 0
          m_aEntityDataList {
           SCR_ArsenalItem "{5EFABD3FA5EAD9B3}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB1797498788F3}" {
+         m_sEntityPrefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB1797FE0AE60B}" {
            m_eItemType EQUIPMENT
           }
          }
@@ -556,6 +565,354 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       }
      }
     }
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" {
+     m_aMultiLists {
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AB9FBDDC}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8EA121E09}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8E95012DA}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8E99F4654}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81660D0B9}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8140863A6}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8128DB218}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5EFB17A9AEA1FD09}" {
+         m_sEntityPrefab "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17A95074787C}" {
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17A94C060FDF}" {
+         m_sEntityPrefab "{00D6DCF68C664480}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_M203_BLOCK_II.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17A94018C06B}" {
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA315A22}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D81F1DA879}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D81E6DD8F0}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D42FA6866585D85}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D42FA6865DC3700}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D42FA68380042F6}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D42FA683F6106ED}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D42FA683EC02BEF}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D42FA6802D0B4E0}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D5740B4F080628F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D5740B4F7C7430A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D5740B4F752A5B1}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D5740B4F6CFE86F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D5740B4F5D7B72A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5EFB17BE662BDF63}" {
+         m_sEntityPrefab "{333A794F0B55C019}Prefabs/Weapons/Attachments/Optics/m8541/Optic_M8541.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17BE026312E7}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17ABFE8AA5FF}" {
+         m_sEntityPrefab "{5D117F017CF82EFC}Prefabs/Weapons/Attachments/Optics/ta31rco/Optic_TA31RCO_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17ABE2DB6D52}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17AB9BF0C63B}" {
+         m_sEntityPrefab "{7DB681643152613C}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17ABBA9C5FE9}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17ABB09CC192}" {
+         m_sEntityPrefab "{143130DC9D28C2FC}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17ABA6B94FF6}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59F0753ABE}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5EFB1797D59A5F05}" {
+         m_sEntityPrefab "{59E0D9B5B6967152}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB1797FE0AE60B}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA2B2FF4}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8FE0A9CB5}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8FD5EAE87}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8FD9369EA}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8FCFEFCF5}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8FB311996}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D7ED94FA6257638}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D7ED94F1F59FA1D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5E108065FD19CF98}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA1A6D59}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F08416A5}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C72EDE237C6A672}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C72EDE2398E8A30}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F03CE9CD}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D7297FBE74B83B3}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F1E3408D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7D8F298E84E}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogEntry "{5EFB17B4B3B17293}" {
+         m_sEntityPrefab "{1CF302A33F29FBEF}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17B44AAA3ABE}" {
+           m_eItemType TORSO
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17B4795F7CBF}" {
+         m_sEntityPrefab "{76D80043D6BFFB57}Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17B46394D284}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17B426F421E8}" {
+         m_sEntityPrefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17B7C01450A5}" {
+           m_eItemType FOOTWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17B7FB446E2E}" {
+         m_sEntityPrefab "{EC26CF977BD3B07B}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17B78B666B39}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17B7BA81EE61}" {
+         m_sEntityPrefab "{907F51E4DFF366FF}Prefabs/Characters/HeadGear/Helmet_MICH_ACH/Helmet_MICH_base.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17B71241E45D}" {
+           m_eItemType HEADWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17B702A71379}" {
+         m_sEntityPrefab "{EB916F0BF524EF25}Prefabs/Characters/HeadGear/Headphones_Peltor/Headphones_Peltor_black.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17B6D9163683}" {
+           m_eItemType HEADWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17B6CD2F2B14}" {
+         m_sEntityPrefab "{F72A8745457018B2}Prefabs/Characters/HeadGear/Hat_USMC_Boonie/Hat_USMC_Boonie.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17B6C24BF902}" {
+           m_eItemType HEADWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17B6E9E5923E}" {
+         m_sEntityPrefab "{9C030889E9A05770}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17B6A598940E}" {
+           m_eItemType HEADWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFB17B65988D50E}" {
+         m_sEntityPrefab "{1300A5F6CA51B204}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFB17B60FB498E9}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5D58F0B3C7A89636}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5D58F0B38AF579FA}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B3A1DD0A78}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B353D996D4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B342B1A03A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B373DB9E8A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B36576A008}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B305F97A97}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B308D1C524}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B333DD8C7F}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5D58F0B0E2B2C39A}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5D58F0B0EA989C67}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B08C326BB4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B0AC570F0B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B07788AC84}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B034635D1B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B02B19CA3F}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B1DA24FDE2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B1C84F99B2}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B1F8CF106B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B1504E5354}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B14276B2F4}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B1617EA463}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B1166B2843}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B104161E9A}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F0B10B080F7B}" {
+         m_bEnabled 0
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5D58F08ED0553649}" {
+       m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5D58F08EFC6B22EC}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F08EEFC19C3D}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5D58F08E9D72FB96}" {
+         m_bEnabled 0
+        }
+       }
+      }
+     }
+    }
+   }
+   m_aStartingVehicles {
+    "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et"
    }
   }
  }
@@ -580,20 +937,40 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
    m_sLoadoutResource "{17ACD56B986C595C}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Leader.et"
    m_sAffiliatedFaction "USSR"
   }
-  SCR_FactionPlayerLoadout "{5EFABD3188FFC3A2}" {
-   m_sLoadoutName "Vada_Ru_Base_Rifleman"
-   m_sLoadoutResource "{38C63BCB71C908F7}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Rifleman.et"
-   m_sAffiliatedFaction "USSR"
-  }
   SCR_FactionPlayerLoadout "{5EFABD356502CEE3}" {
    m_sLoadoutName "Vada_RU_Base_AntiTank"
    m_sLoadoutResource "{C68D327337DD98A6}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_AntiTank.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{5EFABD3188FFC3A2}" {
+   m_sLoadoutName "Vada_RU_Base_Rifleman"
+   m_sLoadoutResource "{38C63BCB71C908F7}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Rifleman.et"
    m_sAffiliatedFaction "USSR"
   }
   SCR_FactionPlayerLoadout "{5EFABD356DDAB2C5}" {
    m_sLoadoutName "Vada_RU_Base_Medic"
    m_sLoadoutResource "{78F651F1CC835E93}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Medic.et"
    m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{5EFB17A5C554B714}" {
+   m_sLoadoutName "Vada_US_Base_Leader"
+   m_sLoadoutResource "{F65B7B887DC3077E}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_Leader.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{5EFB17A5A399D398}" {
+   m_sLoadoutName "Vada_US_Base_AntiTank"
+   m_sLoadoutResource "{AA62EB87C3B2492A}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_AntiTank.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{5EFB17A55D9B9BCF}" {
+   m_sLoadoutName "Vada_US_Base_Rifleman"
+   m_sLoadoutResource "{B6808DC9746BC2C4}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_Rifleman.et"
+   m_sAffiliatedFaction "US"
+  }
+  SCR_FactionPlayerLoadout "{5EFB17A55F7705BF}" {
+   m_sLoadoutName "Vada_US_Base_Medic"
+   m_sLoadoutResource "{E88761C2108B223C}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_Medic.et"
+   m_sAffiliatedFaction "US"
   }
  }
 }
