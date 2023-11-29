@@ -1,0 +1,57 @@
+SCR_ChimeraCharacter : "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Campaign_USSR_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  FactionAffiliationComponent "{520EC9618276DF23}" {
+   "faction affiliation" "RHS_RF_MSV"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_sFaction "RHS_RF_MSV"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   isThrowable 1
+   WeaponType Rifle
+   WeaponTemplate "{B02FA54EB2427627}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   isThrowable 1
+   WeaponTemplate "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{0E6F085125C62084}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2-1_balaclava.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{03FF161D3AC1E1DF}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{8EF93CC5575CFD4B}Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{0D39750E5695B9D8}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{20CFD20350444288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5EFABD2A2C3B3C1B}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+     PrefabsToSpawn {
+      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+     }
+    }
+   }
+  }
+ }
+}

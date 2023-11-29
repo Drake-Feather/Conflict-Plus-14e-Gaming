@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{17ACD56B986C595C}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Leader.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

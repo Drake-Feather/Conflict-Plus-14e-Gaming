@@ -398,10 +398,8 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5E6CD7DD3EEC7093}" {
-         m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5E6CD7DD279ED1E6}" {
-         m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{5EFA0A00B960C204}" {
          m_sEntityPrefab "{BF09E1D72F296AF8}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO_wear.et"
@@ -570,6 +568,26 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
   }
   SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
    m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+  }
+  SCR_FactionPlayerLoadout "{5EFABD315831E99B}" {
+   m_sLoadoutName "Vada_RU_Base_Leader"
+   m_sLoadoutResource "{17ACD56B986C595C}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Leader.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{5EFABD3188FFC3A2}" {
+   m_sLoadoutName "Vada_Ru_Base_Rifleman"
+   m_sLoadoutResource "{38C63BCB71C908F7}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Rifleman.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{5EFABD356502CEE3}" {
+   m_sLoadoutName "Vada_RU_Base_AntiTank"
+   m_sLoadoutResource "{C68D327337DD98A6}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_AntiTank.et"
+   m_sAffiliatedFaction "USSR"
+  }
+  SCR_FactionPlayerLoadout "{5EFABD356DDAB2C5}" {
+   m_sLoadoutName "Vada_RU_Base_Medic"
+   m_sLoadoutResource "{78F651F1CC835E93}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Medic.et"
+   m_sAffiliatedFaction "USSR"
   }
  }
 }
