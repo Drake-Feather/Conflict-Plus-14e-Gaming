@@ -5,6 +5,12 @@ PerceptionManager PerceptionManager1 : "{028DAEAD63E056BE}Prefabs/World/Game/Per
  coords 8179.677 1.128 5660.617
 }
 SCR_GameModeCampaign GameMode_Campaign1 : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_WelcomeScreenComponent "{5D349E3E9CC39991}" {
+   m_sHeaderTitle "Vada Conflic WIP"
+   m_sHeaderSubtitle "By Vaskii & Drake Feather"
+  }
+ }
  coords 8179.227 1.006 5664.09
  m_bAutoPlayerRespawn 0
  m_iControlPointsThreshold 5
@@ -133,13 +139,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
           }
          }
         }
-        SCR_EntityCatalogEntry "{5EF92ED093CFE9B2}" {
-         m_sEntityPrefab "{211E104BCAB8C7DA}Prefabs/Weapons/Rifles/Vz52/Rifle_Vz52_base.et"
-         m_aEntityDataList {
-          SCR_ArsenalItem "{5EF92ED0B95BE0DD}" {
-          }
-         }
-        }
         SCR_EntityCatalogEntry "{5EF92EDC43D379F2}" {
          m_sEntityPrefab "{FB4C5D429348F1A2}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ.et"
          m_aEntityDataList {
@@ -153,6 +152,171 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_aEntityDataList {
           SCR_ArsenalItem "{5EF92EDDB140A0ED}" {
            m_eItemType ROCKET_LAUNCHER
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F137C9AFF}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5EFA0A076C7E53F6}" {
+         m_sEntityPrefab "{1ABABE3551512B0A}Prefabs/Weapons/Attachments/Underbarrel/UGL_GP25.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A0314F6B407}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A07802488C5}" {
+         m_sEntityPrefab "{C4B57488909B3B63}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A03134694B0}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A07815C6260}" {
+         m_sEntityPrefab "{349DE19C84303C7B}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_new.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A030E945163}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A078DAF6368}" {
+         m_sEntityPrefab "{E35250A515F71A22}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_1P90.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A0307059F6D}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A079913381B}" {
+         m_sEntityPrefab "{64A680729707DBFE}Prefabs/Weapons/Attachments/Optics/1p87/Optic_1P87_1PN138.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A03392AA69B}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A07D76A3BDD}" {
+         m_sEntityPrefab "{FE2896D202FE7449}Prefabs/Weapons/Attachments/Optics/1p63/Optic_1P63.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A0334A4E880}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A003852CF72}" {
+         m_sEntityPrefab "{D901305DD97960AD}Prefabs/Weapons/Attachments/Misc/AkGpButtPad/akGPbutt.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A02FFF5F51F}" {
+           m_eItemType WEAPON_ATTACHMENT
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F7414CA4A}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5EFA0A0102C0880A}" {
+         m_sEntityPrefab "{1486E991C03BE661}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Plates/DestructibleArmorPlate_6B45_Granit_Back.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A0C3B678035}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A010BCE24F9}" {
+         m_sEntityPrefab "{FF692FD5AFD43076}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Plates/DestructibleArmorPlate_6B45_Granit_Front.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A0C03DEE3D1}" {
+           m_eItemType EQUIPMENT
+          }
+         }
+        }
+       }
+      }
+      SCR_EntityCatalogMultiListEntry "{5C68AD5F13240031}" {
+       m_aEntities {
+        SCR_EntityCatalogEntry "{5EFA0A00B960C204}" {
+         m_sEntityPrefab "{BF09E1D72F296AF8}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO_wear.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A022E6000E5}" {
+           m_eItemType TORSO
+           m_iSupplyCost 0
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A00BF9EAD03}" {
+         m_sEntityPrefab "{CBB21E1A8F482222}Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO_wear.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A0214AD2357}" {
+           m_eItemType LEGS
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A00BF6284A2}" {
+         m_sEntityPrefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A026297A026}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A00BC1CDC37}" {
+         m_sEntityPrefab "{290EB58C0B52EB1C}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_GL.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A025070CD08}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A00BDC9B93D}" {
+         m_sEntityPrefab "{915E9D97CFAB02D6}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_officer.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A02554E1D2B}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A0082C9447D}" {
+         m_sEntityPrefab "{E711752AC6D2123D}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_officer_GL.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A025D962166}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A00CFD43ADB}" {
+         m_sEntityPrefab "{20CFD20350444288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_rifleman.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A02A49A271C}" {
+           m_eItemType VEST_AND_WAIST
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A03B1F39827}" {
+         m_sEntityPrefab "{5F71AB03597B3D25}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A03BBD35DA0}" {
+           m_eItemType HEADWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A03F2851198}" {
+         m_sEntityPrefab "{150CBCB5E706F291}Prefabs/Characters/HeadGear/Headphones_6M2/Headphones_6M2-1.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A03F5A01A76}" {
+           m_eItemType HEADWEAR
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFA0A03F2748445}" {
+         m_sEntityPrefab "{40ED520CE1154848}Prefabs/Characters/HeadGear/Helmet_LShZ/Balaclava_LShZ_black.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFA0A0C256FE695}" {
+           m_eItemType HEADWEAR
           }
          }
         }
