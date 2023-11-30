@@ -1,0 +1,30 @@
+GenericEntity : "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E0EEDB0BD59EE7D}" {
+     AttachmentSlot InventoryStorageSlot Optics {
+      Prefab "{7DB681643152613C}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE949ECF03E3}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE9573F14F0C}" {
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE953838E77C}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95244FA719}" {
+      Enabled 0
+      Prefab "{A62F1332EFC35258}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_grip.et"
+     }
+    }
+    AttachmentSlotComponent "{5EA2BE95B630A07A}" {
+     AttachmentSlot InventoryStorageSlot "{5EA2BE95B7F1B3D5}" {
+      Prefab "{3E58E88A66547A30}Prefabs/Weapons/Attachments/Misc/KacRailCover/KacRailCover_kit1.et"
+     }
+    }
+   }
+  }
+ }
+ coords 152.932 1.098 116.741
+}

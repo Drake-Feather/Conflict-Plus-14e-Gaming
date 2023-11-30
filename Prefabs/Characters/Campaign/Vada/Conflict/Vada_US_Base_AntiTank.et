@@ -1,8 +1,22 @@
 SCR_ChimeraCharacter : "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Campaign_USSR_Base.et" {
  ID "520EC961A090BE1E"
  components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{FAE8B9F7CEA49696}Prefabs/Items/Equipment/Binoculars/Rangefinder_Vector21_lc.et"
+      }
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{78ED4FEF62BBA728}Prefabs/Items/Equipment/Watches/Watch_SandY184A.et"
+      }
+     }
+    }
+   }
+  }
   FactionAffiliationComponent "{520EC9618276DF23}" {
-   "faction affiliation" "RHS_RF_MSV"
+   "faction affiliation" "US"
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
@@ -10,46 +24,78 @@ SCR_ChimeraCharacter : "{918C557BF3506286}Prefabs/Characters/Campaign/Final/Camp
     m_sFaction "RHS_RF_MSV"
    }
   }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponType FragGrenade
+   WeaponTemplate "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    isThrowable 1
    WeaponType Rifle
-   WeaponTemplate "{B02FA54EB2427627}Prefabs/Weapons/Rifles/AK74M/Rifle_AK74M_npz_rail.et"
+   AttachType InventoryStorageSlot "{0C3DA650B52E120B}" {
+   }
+   WeaponTemplate "{89952D346319F175}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_SU230Rifleman.et"
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponType RocketLauncher
+   AttachType InventoryStorageSlot "{0C3DA650B52E127A}" {
+   }
+   WeaponTemplate "{37F022D0CDC84C11}Prefabs/Weapons/Launchers/M72/Launcher_M72A3_base.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
    isThrowable 1
-   WeaponTemplate "{7A82FE978603F137}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7.et"
+   WeaponType Handgun
+   AttachType InventoryStorageSlot "{9113A68B4D97E2E6}" {
+   }
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{0E6F085125C62084}Prefabs/Characters/HeadGear/Helmet_6B47/Helmet_6B47_6M2-1_balaclava.et"
+     Prefab "{12633942F9ECD6FB}Prefabs/Characters/HeadGear/Helmet_6B47/BalaclavaHelmetUS.et"
     }
     LoadoutSlotInfo Jacket {
-     Prefab "{03FF161D3AC1E1DF}Prefabs/Characters/Uniforms/VKPO/Field_Jacket_VKPO.et"
+     Prefab "{1CF302A33F29FBEF}Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
     }
     LoadoutSlotInfo ArmoredVest {
-     Prefab "{B9821AF2F5D104E4}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Vest_Ratnik_6B45.et"
+     Prefab "{68CF844B606428D8}Prefabs/Characters/Vests/Vest_PCGen_III/Vest_PCGen_III_light.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{8EF93CC5575CFD4B}Prefabs/Characters/Uniforms/VKPO/Field_Pants_VKPO.et"
+     Prefab "{76D80043D6BFFB57}Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{C7923961D7235D70}Prefabs/Characters/Footwear/CombatBoots_Soviet_01.et"
+     Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
     }
     LoadoutSlotInfo Back {
-     Prefab "{0D39750E5695B9D8}Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+     Prefab "{9A26D311900C33EE}Prefabs/Items/Equipment/Backpacks/FILBE_hydration_pack.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{20CFD20350444288}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratnik_6B45_rifleman.et"
+     Prefab "{1300A5F6CA51B204}Prefabs/Characters/Vests/Vest_PCGen_III/Variants/Vest_PCGen_III_rifleman.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
-    ItemsInitConfigurationItem "{5EFB17A5A9DFD811}" {
-     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Gunner.et"
+    ItemsInitConfigurationItem "{5EFD389A1688E794}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_PCGen_III_Pouches/Pouch_OpenTop_M27_1_pouch.et"
      PrefabsToSpawn {
-      "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
+      "{E1EF9B960E9DE636}Prefabs/Weapons/Magazines/3RBN_Magazine_556x45_PMAG_30rnd_Ball_Black.et" "{E1EF9B960E9DE636}Prefabs/Weapons/Magazines/3RBN_Magazine_556x45_PMAG_30rnd_Ball_Black.et" "{E1EF9B960E9DE636}Prefabs/Weapons/Magazines/3RBN_Magazine_556x45_PMAG_30rnd_Ball_Black.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5EFD389A1688E79E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_FROG_Combat_Shirt.et"
+     PrefabsToSpawn {
+      "{E1EF9B960E9DE636}Prefabs/Weapons/Magazines/3RBN_Magazine_556x45_PMAG_30rnd_Ball_Black.et" "{E1EF9B960E9DE636}Prefabs/Weapons/Magazines/3RBN_Magazine_556x45_PMAG_30rnd_Ball_Black.et" "{E1EF9B960E9DE636}Prefabs/Weapons/Magazines/3RBN_Magazine_556x45_PMAG_30rnd_Ball_Black.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5EFD389A1688E79D}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_FROG_Trousers.et"
+     PrefabsToSpawn {
+      "{2EA5FDE30DCC6015}Prefabs/Weapons/Magazines/3RBN_Magazine_9x19_Glock17_17rnd.et" "{2EA5FDE30DCC6015}Prefabs/Weapons/Magazines/3RBN_Magazine_9x19_Glock17_17rnd.et" "{C55821E8E86C074E}Prefabs/Items/Equipment/Radios/Radio_ANPRC152.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5EFD389A1688E79C}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_RPG_Assistant.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_US_01.et" "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01_base.et" "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01_base.et" "{260827F90690140A}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01_base.et" "{260827F90690140A}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01_base.et" "{0619993AE6CDBF85}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et"
      }
     }
    }

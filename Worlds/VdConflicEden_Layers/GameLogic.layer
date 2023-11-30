@@ -631,6 +631,8 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         }
        }
       }
+      SCR_EntityCatalogMultiListEntry "{5C68AD59AA6FA1B8}" {
+      }
       SCR_EntityCatalogMultiListEntry "{5C68AD59AA315A22}" {
        m_aEntities {
         SCR_EntityCatalogInventoryItem "{5C62F7D81F1DA879}" {
@@ -954,6 +956,24 @@ SCR_BaseTaskManager : "{17E3EF2CF455460F}Prefabs/MP/Campaign/CampaignTaskManager
 SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
  coords 8193.229 0.741 5629.811
  m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
+   m_sLoadoutName ""
+   m_sLoadoutResource "{8B567897680EB9FA}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et"
+   m_sAffiliatedFaction ""
+  }
+  SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
+   m_sLoadoutName ""
+   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
+   m_sAffiliatedFaction ""
+  }
+  SCR_PlayerArsenalLoadout "{5B108B49559B24A2}" {
+   m_sLoadoutName ""
+   m_sAffiliatedFaction ""
+  }
+  SCR_PlayerArsenalLoadout "{5B108B4948B445F8}" {
+   m_sLoadoutName ""
+   m_sAffiliatedFaction ""
+  }
   SCR_FactionPlayerLoadout "{5EFABD315831E99B}" {
    m_sLoadoutName "Chef d'équipe "
    m_sLoadoutResource "{17ACD56B986C595C}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Leader.et"
@@ -974,16 +994,6 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
    m_sLoadoutResource "{78F651F1CC835E93}Prefabs/Characters/Campaign/Vada/Conflict/Vada_RU_Base_Medic.et"
    m_sAffiliatedFaction "USSR"
   }
-  SCR_FactionPlayerLoadout "{5690D9DB9400735C}" {
-   m_sLoadoutName ""
-   m_sLoadoutResource "{9B452A52081470E3}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_USSR_MSV_Player.et"
-   m_sAffiliatedFaction ""
-  }
-  SCR_FactionPlayerLoadout "{5690D9DB9BA76597}" {
-   m_sLoadoutName ""
-   m_sLoadoutResource "{8B567897680EB9FA}Prefabs/Characters/Campaign/RHS/Conflict/Campaign_US_USMC_Player.et"
-   m_sAffiliatedFaction ""
-  }
   SCR_FactionPlayerLoadout "{5EFB17A5C554B714}" {
    m_sLoadoutName "Chef d'équipe"
    m_sLoadoutResource "{F65B7B887DC3077E}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_Leader.et"
@@ -991,26 +1001,18 @@ SCR_LoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManag
   }
   SCR_FactionPlayerLoadout "{5EFB17A55D9B9BCF}" {
    m_sLoadoutName "Fusilier"
-   m_sLoadoutResource "{B6808DC9746BC2C4}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_Rifleman.et"
+   m_sLoadoutResource "{CBC32278C083B7B2}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_Rifleman1.et"
    m_sAffiliatedFaction "US"
   }
   SCR_FactionPlayerLoadout "{5EFB17A5A399D398}" {
    m_sLoadoutName "Anti Char"
-   m_sLoadoutResource "{AA62EB87C3B2492A}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_AntiTank.et"
+   m_sLoadoutResource "{94CDBEFF9B2EE93C}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_AntiTank.et"
    m_sAffiliatedFaction "US"
   }
   SCR_FactionPlayerLoadout "{5EFB17A55F7705BF}" {
    m_sLoadoutName "Médecin"
    m_sLoadoutResource "{E88761C2108B223C}Prefabs/Characters/Campaign/Vada/Conflict/Vada_US_Base_Medic.et"
    m_sAffiliatedFaction "US"
-  }
-  SCR_PlayerArsenalLoadout "{5B108B49559B24A2}" {
-   m_sLoadoutName ""
-   m_sAffiliatedFaction ""
-  }
-  SCR_PlayerArsenalLoadout "{5B108B4948B445F8}" {
-   m_sLoadoutName ""
-   m_sAffiliatedFaction ""
   }
  }
 }
