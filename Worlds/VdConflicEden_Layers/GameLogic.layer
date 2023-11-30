@@ -67,9 +67,11 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
     SCR_EntityCatalog "{5C68A0E9A51460AB}" {
      m_aEntityEntryList {
       SCR_EntityCatalogEntry "{5C54F92F74CEE665}" {
+       m_bEnabled 0
       }
       SCR_EntityCatalogEntry "{5EF92ED38EE89DBD}" {
        m_sEntityPrefab "{130214331292D6B5}Prefabs/Weapons/Tripods/Tripod_SPG9.et"
+       m_bEnabled 0
       }
      }
     }
@@ -92,8 +94,15 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
         SCR_EntityCatalogInventoryItem "{5C62F7DF50ACF66F}" {
          m_bEnabled 0
         }
+        SCR_EntityCatalogInventoryItem "{5E39685DD5E3FD1C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5E473E86BD485B9D}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogEntry "{5EF92EE0E40DDC65}" {
          m_sEntityPrefab "{F5E3EDA47FE6F252}Prefabs/Weapons/Rifles/SVD/Rifle_SVD pso.et"
+         m_bEnabled 0
          m_aEntityDataList {
           SCR_ArsenalItem "{5EF92EE08BC02902}" {
            m_eItemType SNIPER_RIFLE
@@ -175,6 +184,11 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
       }
       SCR_EntityCatalogMultiListEntry "{5C68AD5F148714C4}" {
        m_aEntities {
+        SCR_EntityCatalogInventoryItem "{5C62F7DF57A5E254}" {
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF55FE15F2}" {
+         m_bEnabled 0
+        }
         SCR_EntityCatalogInventoryItem "{5C62F7DF53ED1A87}" {
          m_bEnabled 0
         }
@@ -185,6 +199,15 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5C62F7DF504A3A3B}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5CB89941E8227C34}" {
+         m_bEnabled 1
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF594F5F3C}" {
+         m_bEnabled 0
+        }
+        SCR_EntityCatalogInventoryItem "{5C62F7DF598D6455}" {
          m_bEnabled 0
         }
         SCR_EntityCatalogEntry "{5EFABD3B1A2FEE93}" {
@@ -207,6 +230,32 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_sEntityPrefab "{FD34D121FA55CB10}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Last_5Tracer.et"
          m_aEntityDataList {
           SCR_ArsenalItem "{5EFABD3B4008FAB8}" {
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFC1D8C015BB82B}" {
+         m_sEntityPrefab "{52FE3E0398FEEBC4}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_4Ball_1Tracer.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFC1D8C1B728E32}" {
+           m_eItemMode AMMUNITION
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFC1D8C07F9A792}" {
+         m_sEntityPrefab "{446CD9EBCB531303}Prefabs/Weapons/Magazines/aps_magazine/Magazine_9x18_APS_20rnd_7N25.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFC1D8C7D8921D1}" {
+           m_eItemType PISTOL
+           m_eItemMode AMMUNITION
+          }
+         }
+        }
+        SCR_EntityCatalogEntry "{5EFC1D8DB12FBB02}" {
+         m_sEntityPrefab "{97A0A70B9BEE99E2}Prefabs/Weapons/Ammo/Ammo_Flare_26x45_White.et"
+         m_aEntityDataList {
+          SCR_ArsenalItem "{5EFC1D8DF8F440F2}" {
+           m_eItemType PISTOL
+           m_eItemMode AMMUNITION
           }
          }
         }
@@ -356,27 +405,6 @@ SCR_CampaignFactionManager CampaignFactionManager1 : "{F1AC26310BAE3788}Prefabs/
          m_bEnabled 0
         }
         SCR_EntityCatalogInventoryItem "{5E6683685A7AAC02}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{5EF145C5376982DE}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{5EF145C54A3F05BC}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{5EF145C55DB19F4E}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{5EF145C56613828C}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{5EF145C568C9B280}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{5EF145C57E37EAD2}" {
-         m_bEnabled 0
-        }
-        SCR_EntityCatalogEntry "{5EF145C58772ED72}" {
          m_bEnabled 0
         }
        }
