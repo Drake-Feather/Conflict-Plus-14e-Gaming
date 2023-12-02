@@ -1,0 +1,68 @@
+$grp GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ MontignacBase {
+  coords 5034.465 173.805 7111.245
+ }
+ GravetteBase {
+  coords 4073.218 36.418 7887.428
+ }
+ MeauxBase {
+  coords 4658.619 23.443 9553.191
+ }
+ VilleneufBase {
+  coords 2865.209 77.648 6496.687
+ }
+ RedonBase {
+  coords 2181.048 19.276 7494.122
+ }
+ LamentinBase {
+  coords 1269.058 37.211 6015.743
+ }
+ LeMouleBase {
+  coords 2550.268 85.579 5310.577
+ }
+ KervelBase {
+  coords 2451.003 13.348 4328.711
+ }
+ CamuracBase {
+  coords 6636.829 6.156 3110.997
+ }
+ DurrasBase {
+  coords 8932.666 98.078 2683.585
+ }
+ QuarryBase {
+  coords 8769.971 199.259 3969.354
+ }
+ MilitaryLevieBase {
+  coords 7452.689 165.062 4306.717
+ }
+ LarunsBase {
+  coords 7581.835 81.759 5511.021
+ }
+ MortonBase {
+  coords 5035.288 15.528 4014.534
+ }
+ CampingBase {
+  coords 4345.459 57.052 5809.903
+ }
+ MilitaryChotainBase {
+  coords 7470.465 7.778 6701.758
+ }
+ MilitaryYantarBase {
+  coords 7736.811 13.794 8139.989
+ }
+ FigariBase {
+  coords 5273.734 63.17 5346.986
+ }
+ FarmTyroneBase {
+  coords 5363.384 10.572 8708.804
+ }
+ MilitaryJupiterBase {
+  coords 6293.394 161.163 7857.755
+ }
+ ChotainBase {
+  coords 7073.923 118.848 6027.191
+ }
+ RichemontBase {
+  coords 3525.267 112.778 5002.324
+ }
+}
